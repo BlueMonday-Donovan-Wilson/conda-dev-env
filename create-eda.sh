@@ -1,0 +1,1 @@
+conda create --name $1 --file eda.yml

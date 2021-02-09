@@ -1,0 +1,9 @@
+version: '3'
+services:
+  conda:
+    image: 'conda-env:latest'
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    environment:
+      - DATABRICKS_HOST=https://aaa.ccc
+      - DATABRICKS_TOKEN=yiytfu67f67
