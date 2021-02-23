@@ -1,1 +1,1 @@
-docker run -it -e DATABRICKS_HOST=%1 -e DATABRICKS_TOKEN=%2 conda-env
+docker run -it --rm -v "projects:/root/projects" conda-env
